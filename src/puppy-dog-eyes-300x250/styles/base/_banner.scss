@@ -1,0 +1,49 @@
+$banner-width: 300px;
+$banner-height: 250px;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.benton-sans-book {
+  font-family: benton-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.benton-sans-regular {
+  font-family: benton-sans, sans-serif;
+  font-weight: 500;  
+  font-style: normal;
+}
+
+.benton-sans-bold {
+  font-family: benton-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.banner {
+  background: #7ed1f2;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: $banner-height;
+  left: 50%;
+  overflow: hidden;
+  position: relative;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: $banner-width;
+}
