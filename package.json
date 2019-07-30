@@ -50,7 +50,7 @@
     "gulp-util": "^3.0.7",
     "gulp-zip": "^4.0.0",
     "jshint": "^2.9.5",
-    "open": "0.0.5",
+    "open": "6.0.0",
     "require-dir": "^0.3.2",
     "webshot": "^0.18.0"
   }
